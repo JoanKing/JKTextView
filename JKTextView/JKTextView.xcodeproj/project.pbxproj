@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26CCD5621C361E100821F7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCD5521C361E100821F7F /* AppDelegate.m */; };
+		E26CCD5921C361E100821F7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCD5821C361E100821F7F /* ViewController.m */; };
+		E26CCD5C21C361E100821F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26CCD5A21C361E100821F7F /* Main.storyboard */; };
+		E26CCD5E21C361E200821F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26CCD5D21C361E200821F7F /* Assets.xcassets */; };
+		E26CCD6121C361E200821F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26CCD5F21C361E200821F7F /* LaunchScreen.storyboard */; };
+		E26CCD6421C361E200821F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCD6321C361E200821F7F /* main.m */; };
+		E26CCD6E21C361E200821F7F /* JKTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCD6D21C361E200821F7F /* JKTextViewTests.m */; };
+		E26CCD7921C361E200821F7F /* JKTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCD7821C361E200821F7F /* JKTextViewUITests.m */; };
+		E26CCD8B21C3620000821F7F /* JKLimitInput.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCD8721C3620000821F7F /* JKLimitInput.m */; };
+		E26CCD8C21C3620000821F7F /* UITextView+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E26CCD8A21C3620000821F7F /* UITextView+JKExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26CCD6A21C361E200821F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26CCD4921C361E100821F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26CCD5021C361E100821F7F;
+			remoteInfo = JKTextView;
+		};
+		E26CCD7521C361E200821F7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26CCD4921C361E100821F7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26CCD5021C361E100821F7F;
+			remoteInfo = JKTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26CCD5121C361E100821F7F /* JKTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26CCD5421C361E100821F7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E26CCD5521C361E100821F7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E26CCD5721C361E100821F7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E26CCD5821C361E100821F7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E26CCD5B21C361E100821F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26CCD5D21C361E200821F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E26CCD6021C361E200821F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E26CCD6221C361E200821F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26CCD6321C361E200821F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E26CCD6921C361E200821F7F /* JKTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26CCD6D21C361E200821F7F /* JKTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTextViewTests.m; sourceTree = "<group>"; };
+		E26CCD6F21C361E200821F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26CCD7421C361E200821F7F /* JKTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26CCD7821C361E200821F7F /* JKTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTextViewUITests.m; sourceTree = "<group>"; };
+		E26CCD7A21C361E200821F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26CCD8721C3620000821F7F /* JKLimitInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLimitInput.m; sourceTree = "<group>"; };
+		E26CCD8821C3620000821F7F /* UITextView+JKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+JKExtension.h"; sourceTree = "<group>"; };
+		E26CCD8921C3620000821F7F /* JKLimitInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLimitInput.h; sourceTree = "<group>"; };
+		E26CCD8A21C3620000821F7F /* UITextView+JKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+JKExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26CCD4E21C361E100821F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26CCD6621C361E200821F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26CCD7121C361E200821F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26CCD4821C361E100821F7F = {
+			isa = PBXGroup;
+			children = (
+				E26CCD5321C361E100821F7F /* JKTextView */,
+				E26CCD6C21C361E200821F7F /* JKTextViewTests */,
+				E26CCD7721C361E200821F7F /* JKTextViewUITests */,
+				E26CCD5221C361E100821F7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26CCD5221C361E100821F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26CCD5121C361E100821F7F /* JKTextView.app */,
+				E26CCD6921C361E200821F7F /* JKTextViewTests.xctest */,
+				E26CCD7421C361E200821F7F /* JKTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26CCD5321C361E100821F7F /* JKTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E26CCD5421C361E100821F7F /* AppDelegate.h */,
+				E26CCD5521C361E100821F7F /* AppDelegate.m */,
+				E26CCD5721C361E100821F7F /* ViewController.h */,
+				E26CCD5821C361E100821F7F /* ViewController.m */,
+				E26CCD8621C3620000821F7F /* JKTextView */,
+				E26CCD5A21C361E100821F7F /* Main.storyboard */,
+				E26CCD5D21C361E200821F7F /* Assets.xcassets */,
+				E26CCD5F21C361E200821F7F /* LaunchScreen.storyboard */,
+				E26CCD6221C361E200821F7F /* Info.plist */,
+				E26CCD6321C361E200821F7F /* main.m */,
+			);
+			path = JKTextView;
+			sourceTree = "<group>";
+		};
+		E26CCD6C21C361E200821F7F /* JKTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26CCD6D21C361E200821F7F /* JKTextViewTests.m */,
+				E26CCD6F21C361E200821F7F /* Info.plist */,
+			);
+			path = JKTextViewTests;
+			sourceTree = "<group>";
+		};
+		E26CCD7721C361E200821F7F /* JKTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26CCD7821C361E200821F7F /* JKTextViewUITests.m */,
+				E26CCD7A21C361E200821F7F /* Info.plist */,
+			);
+			path = JKTextViewUITests;
+			sourceTree = "<group>";
+		};
+		E26CCD8621C3620000821F7F /* JKTextView */ = {
+			isa = PBXGroup;
+			children = (
+				E26CCD8921C3620000821F7F /* JKLimitInput.h */,
+				E26CCD8721C3620000821F7F /* JKLimitInput.m */,
+				E26CCD8821C3620000821F7F /* UITextView+JKExtension.h */,
+				E26CCD8A21C3620000821F7F /* UITextView+JKExtension.m */,
+			);
+			path = JKTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26CCD5021C361E100821F7F /* JKTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26CCD7D21C361E200821F7F /* Build configuration list for PBXNativeTarget "JKTextView" */;
+			buildPhases = (
+				E26CCD4D21C361E100821F7F /* Sources */,
+				E26CCD4E21C361E100821F7F /* Frameworks */,
+				E26CCD4F21C361E100821F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKTextView;
+			productName = JKTextView;
+			productReference = E26CCD5121C361E100821F7F /* JKTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26CCD6821C361E200821F7F /* JKTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26CCD8021C361E200821F7F /* Build configuration list for PBXNativeTarget "JKTextViewTests" */;
+			buildPhases = (
+				E26CCD6521C361E200821F7F /* Sources */,
+				E26CCD6621C361E200821F7F /* Frameworks */,
+				E26CCD6721C361E200821F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26CCD6B21C361E200821F7F /* PBXTargetDependency */,
+			);
+			name = JKTextViewTests;
+			productName = JKTextViewTests;
+			productReference = E26CCD6921C361E200821F7F /* JKTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E26CCD7321C361E200821F7F /* JKTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26CCD8321C361E200821F7F /* Build configuration list for PBXNativeTarget "JKTextViewUITests" */;
+			buildPhases = (
+				E26CCD7021C361E200821F7F /* Sources */,
+				E26CCD7121C361E200821F7F /* Frameworks */,
+				E26CCD7221C361E200821F7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26CCD7621C361E200821F7F /* PBXTargetDependency */,
+			);
+			name = JKTextViewUITests;
+			productName = JKTextViewUITests;
+			productReference = E26CCD7421C361E200821F7F /* JKTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26CCD4921C361E100821F7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "JK科技有限公司";
+				TargetAttributes = {
+					E26CCD5021C361E100821F7F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E26CCD6821C361E200821F7F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E26CCD5021C361E100821F7F;
+					};
+					E26CCD7321C361E200821F7F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E26CCD5021C361E100821F7F;
+					};
+				};
+			};
+			buildConfigurationList = E26CCD4C21C361E100821F7F /* Build configuration list for PBXProject "JKTextView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26CCD4821C361E100821F7F;
+			productRefGroup = E26CCD5221C361E100821F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26CCD5021C361E100821F7F /* JKTextView */,
+				E26CCD6821C361E200821F7F /* JKTextViewTests */,
+				E26CCD7321C361E200821F7F /* JKTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26CCD4F21C361E100821F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26CCD6121C361E200821F7F /* LaunchScreen.storyboard in Resources */,
+				E26CCD5E21C361E200821F7F /* Assets.xcassets in Resources */,
+				E26CCD5C21C361E100821F7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26CCD6721C361E200821F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26CCD7221C361E200821F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26CCD4D21C361E100821F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26CCD5921C361E100821F7F /* ViewController.m in Sources */,
+				E26CCD8B21C3620000821F7F /* JKLimitInput.m in Sources */,
+				E26CCD8C21C3620000821F7F /* UITextView+JKExtension.m in Sources */,
+				E26CCD6421C361E200821F7F /* main.m in Sources */,
+				E26CCD5621C361E100821F7F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26CCD6521C361E200821F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26CCD6E21C361E200821F7F /* JKTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26CCD7021C361E200821F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26CCD7921C361E200821F7F /* JKTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26CCD6B21C361E200821F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26CCD5021C361E100821F7F /* JKTextView */;
+			targetProxy = E26CCD6A21C361E200821F7F /* PBXContainerItemProxy */;
+		};
+		E26CCD7621C361E200821F7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26CCD5021C361E100821F7F /* JKTextView */;
+			targetProxy = E26CCD7521C361E200821F7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E26CCD5A21C361E100821F7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26CCD5B21C361E100821F7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E26CCD5F21C361E200821F7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26CCD6021C361E200821F7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26CCD7B21C361E200821F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E26CCD7C21C361E200821F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E26CCD7E21C361E200821F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26CCD7F21C361E200821F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E26CCD8121C361E200821F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKTextView.app/JKTextView";
+			};
+			name = Debug;
+		};
+		E26CCD8221C361E200821F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKTextView.app/JKTextView";
+			};
+			name = Release;
+		};
+		E26CCD8421C361E200821F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKTextView;
+			};
+			name = Debug;
+		};
+		E26CCD8521C361E200821F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75LW4CAG6Y;
+				INFOPLIST_FILE = JKTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoou.joanking.JKTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26CCD4C21C361E100821F7F /* Build configuration list for PBXProject "JKTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26CCD7B21C361E200821F7F /* Debug */,
+				E26CCD7C21C361E200821F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26CCD7D21C361E200821F7F /* Build configuration list for PBXNativeTarget "JKTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26CCD7E21C361E200821F7F /* Debug */,
+				E26CCD7F21C361E200821F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26CCD8021C361E200821F7F /* Build configuration list for PBXNativeTarget "JKTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26CCD8121C361E200821F7F /* Debug */,
+				E26CCD8221C361E200821F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26CCD8321C361E200821F7F /* Build configuration list for PBXNativeTarget "JKTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26CCD8421C361E200821F7F /* Debug */,
+				E26CCD8521C361E200821F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26CCD4921C361E100821F7F /* Project object */;
+}
